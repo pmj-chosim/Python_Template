@@ -153,6 +153,63 @@ IntelliJ(PyCharm)에서 우측의 GitHub Copilot 버튼을 눌러 채팅을 엽�
 예를 들어, 어떤 함수의 기능이 궁금할 때, 그 함수 위에 커서를 두고 인라인 채팅을 활성화해서 "이 함수는 무슨 역할을 해?"라고 물어볼 수 있습니다. 그러면 코파일럿이 바로 옆에 답변을 띄워주는 식으로 동작합니다.  
 
 이 기능은 코딩 흐름을 끊지 않고 필요한 정보를 얻거나, 코드 수정에 대한 도움을 받고 싶을 때 매우 유용합니다.  
+
+`main.py` 파일의 코드 편집기 내부에서 마우스 우클릭을 합니다. GitHub Copilot 메뉴가  뜰 것입니다. 메뉴에서 인라인 채팅 열기를 클릭합니다.  
+<img width="627" height="282" alt="image" src="https://github.com/user-attachments/assets/af7cfb91-c034-44d5-8f31-c851278b2cf3" />  
+
+
+그리고  
+```bash
+지금 코드 동작을 간략하게 설명해줘
+```
+라고 입력합니다.
+<img width="833" height="348" alt="image" src="https://github.com/user-attachments/assets/18eb1e10-4ce4-4020-863a-92f8f410a7bb" />    
+  
+인라인 채팅을 사용하면 코드 작업 공간에서 편리하게 원하는 질문을 할 수 있음을 실습을 통해 알아 보았습니다.  
+
+  
+- 스마트 액션
+스마트 액션은 GitHub Copilot을 통해 받고 싶은 도움을 귀찮게 채팅을 치지 않아도 쉽게 받을 수 있게 하는 방법입니다.  
+
+
+코드 작업 공간에서 원하는 코드 블록을 드래그하여 선택한 후, 마우스 우클릭을 하면 GitHub Copilot 메뉴가 뜰 것입니다.  
+<img width="442" height="308" alt="image" src="https://github.com/user-attachments/assets/dfb3330f-1116-475b-abf8-acffde21e430" />   
+<img width="537" height="303" alt="image" src="https://github.com/user-attachments/assets/e5224558-82a0-4484-9810-fc706ed1926f" />  
+
+
+메뉴를 살펴보면 Simplify This(간소화), Generate Docs(문서/주석 생성), Generate Tests(테스트 생성), Fix This(오류 수정), Explain This(설명) 등을 확인할 수 있습니다. 이 메뉴들을 선택하면 요약, 문서 생성 등의 동작들을 채팅을 치지 않고 요청할 수 있습니다. 앞서 인라인 채팅 실습에선 채팅으로 직접 설명을 하라고 요청했습니다.  
+<img width="702" height="407" alt="image" src="https://github.com/user-attachments/assets/27203119-aeff-4130-87d0-f64159bdbb11" />  
+
+
+하지만, 이 스마트 액션을 통해 채팅을 입력하지 않고도 요약을 요청해보겠습니다. 설명받고 싶은 코드를 드래그한 후, 마우스 우클릭 > Explain 를 선택합니다.   
+
+해당 코드에 대한 설명을 채팅을 입력하지 않아도 얻을 수 있습니다.  
+<img width="1563" height="667" alt="image" src="https://github.com/user-attachments/assets/2d441aa2-aadd-4708-9d60-4c6c3441a334" />  
+
+
+- 퀵 채팅
+
+퀵 채팅(Quick Chat)은 별도의 챗봇 창(사이드바)을 열지 않고, 편집기 화면 위에 바로 작은 부동 채팅창을 띄워 대화하는 기능입니다.  
+
+코딩 중인 작업 흐름을 끊지 않고, 현재 화면을 벗어나지 않은 상태에서 빠르게 질문하고 싶을 때 매우 유용합니다.
+<img width="1256" height="363" alt="image" src="https://github.com/user-attachments/assets/946b3cc5-20db-4bd2-adff-324db89285e2" />
+
+상단의 채팅 옵션에서 **빠른 채팅 열기**를 클릭하면 퀵 채팅을 열 수 있습니다. (VS Code 기본 단축키: Cmd+Shift+I 또는 Ctrl+Shift+I)  
+
+<img width="920" height="298" alt="image" src="https://github.com/user-attachments/assets/44600c38-5d0d-4619-abde-530db34e66b3" />  
+
+이 기능은 다음과 같은 특징이 있습니다.
+
+- 작업 흐름 유지: 전체 사이드바를 열어 화면을 가리지 않기 때문에, 현재 작업 중인 코드를 계속 보면서 질문하고 답변을 확인할 수 있습니다.  
+- 빠른 접근성: 단축키나 메뉴 클릭 한 번으로 즉시 채팅창을 불러올 수 있어 신속합니다.  
+- 간결한 사용성: 채팅 뷰(사이드바)의 Ask 모드와 유사하게 동작하지만, 인터페이스가 더 간결하고 가볍습니다. 일반적인 질문이나 간단한 코드 스니펫에 대한 질문을 하기에 적합합니다.  
+
+
+
+
+
+
+
  
 
 
