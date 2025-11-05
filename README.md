@@ -18,7 +18,11 @@ Code > Codespaces > Create codespaces on main을 선택합니다.
 <img width="1202" height="696" alt="image" src="https://github.com/user-attachments/assets/28835052-2bed-495a-a556-5bfeb0010773" />  
 
 환경이 셋팅될 때까지 기다립니다.  
-<img width="1882" height="833" alt="image" src="https://github.com/user-attachments/assets/5b101e8f-484f-4506-b1ee-54ceba62655f" />  
+<img width="1882" height="833" alt="image" src="https://github.com/user-attachments/assets/5b101e8f-484f-4506-b1ee-54ceba62655f" />    
+
+이후, 좌측 하단의 프로필을 클릭해 GitHub에 로그인합니다.  
+<img width="795" height="290" alt="image" src="https://github.com/user-attachments/assets/76003956-a205-4860-ba1a-146038816c64" />  
+
   
 
 ---
